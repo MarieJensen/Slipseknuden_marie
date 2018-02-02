@@ -1,0 +1,96 @@
+<main>
+    <div class="col-md-3">
+        <h4 class="nav-h4">PRODUKTER</h4>
+        <ul id="ul_style">
+            <li>
+                <a href="#">Alle</a>
+            </li>
+            <li>
+                <a href="#">Shoon</a>
+            </li>
+            <li>
+                <a href="#">Korea Special</a>
+            </li>
+            <li>
+                <a href="#">US, Imports</a>
+            </li>
+            <li>
+                <a href="#">Sleek Fabrics UK</a>
+            </li>
+        </ul>
+
+        <div class="col-md-12 no-pad">
+
+            <img width="120px" style="float: left" src="/images/1_klassisk_brun.jpg">
+            <div style="font-size: 12px">
+                <p>
+                    <b>Shoon Slips</b>
+                </p>
+
+                <p>Klassisk brun</p>
+                <p>
+                    <span class="tilbud">TILBUD</span>
+                </p>
+                <p>
+                    <b>DKK
+                        <span class="tilbud"> 450,-</span>
+                    </b>
+                </p>
+            </div>
+            <button class="info">INFO</button>
+
+
+
+            <img width="120px" style="float: left" src="/images/2_stribet_stil.jpg">
+            <div style="font-size: 12px">
+                <p>
+                    <b>Shoon Slips</b>
+                </p>
+                <p>Klassisk brun</p>
+                <p>
+                    <span class="tilbud">TILBUD</span>
+                </p>
+                <p>
+                    <b>DKK
+                        <span class="tilbud"> 300,-</span>
+                    </b>
+                </p>
+            </div>
+            <button class="info">INFO</button>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="col-md-9 rykned">
+
+        <div class="col-md-5">
+            <h3>
+                <b>
+                    <%= produkter.producent %>
+                </b>
+            </h3>
+            <p>
+                <b>
+                    <%= produkter.navn %>
+                </b>
+            </p>
+            <p>
+                <%= produkter.beskrivelse.tekst %>
+            </p>
+            <p>
+                <b>PRIS: DKK
+                    <%= produkter.pris %>,-
+                </b>
+            </p>
+        </div>
+
+        <div class="col-md-7">
+            <img src="/images/<%= produkter.beskrivelse.billede %> ">
+        </div>
+
+
+    </div>
+</main>

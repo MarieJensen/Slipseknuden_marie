@@ -1,0 +1,200 @@
+
+
+/*................ Body style.............. */
+
+#wrapper{
+	max-width:960px;
+	margin:0 auto;
+	background-color:#FFF;
+}
+
+.content{
+    background-color: white;
+    height: auto;
+}
+
+main{
+    background-color: white;
+    height: 100%;
+}
+
+/*................ Header style.............. */
+
+#atag a{
+    color: white;
+    font-size: 1.3em;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+#ingenfarve{
+    background-color: white;
+    border: none;
+}
+
+.søg{
+    background-color: whitesmoke;
+    border: solid 1px lightgray;
+    padding: 1px;
+    margin-top: 10px;  
+    margin-right: 8px;
+    margin-left: 30px;
+}
+
+#navbar-default{
+    border-color: white;
+}
+
+i {
+    margin-top: 13px;  
+    color: white; 
+    font-size: 20px!important;
+    margin-left: 10px;
+}
+
+
+/*.................. Sidebar style ...................*/
+
+#ul_style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+#ul_style  li a {
+    display: block;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+#ul_style  li {
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+#ul_style  li:last-child {
+    border-bottom: none;
+}
+
+.nav-h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.no-pad{
+    padding: 0!important;
+    margin-top:40px;
+}
+
+.info{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    border-color: black;
+    width: 150px;
+    font-weight: bold;
+}
+
+
+/*................. Index style .............. */
+
+.center{
+    text-align: center;
+}
+
+.ptag{
+    margin-top: 30px;
+    margin-bottom: 10px;    
+}
+
+
+/*................. billede style .............. */
+
+#imgstyle{
+    width: 100%; 
+    height: auto;
+}
+
+
+/*................. Nyheder style .............. */
+
+.læsmere{
+    color: #262626;
+}
+
+span{
+    color: orangered;
+}
+    
+/*................. Tilbud sidebar style .............. */
+
+.tilbud{
+    color: #ff1a75;
+    font-weight:  bold;
+}
+
+
+/*................. kolonner style .............. */
+
+.col{
+    background-color: white;
+    height: 100%;
+}
+
+.lige_kolonner img {
+    border: 1px solid black;
+    transition: opacity 0.5s;
+}
+
+.lige_kolonner img:hover {
+    opacity: .5;
+}
+
+
+/*................. padding style .............. */
+
+.rykop{
+    padding-top: 90px;
+}
+
+.rykned{
+    padding-bottom: 36px;
+}
+
+.ryknedd{
+    padding-bottom: 80px;
+}
+
+.rykned2{
+    padding-top: 20px;
+}
+
+.rykned3{
+    padding-top: 70px;
+}
+
+
+
+
+/*................. Footer style ...............*/
+
+#footerstyle{
+    padding: 20px;
+}
+
+.footer{
+    width: 100%;
+    clear: both;
+}
+

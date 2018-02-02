@@ -1,0 +1,86 @@
+<main>
+    <div class="col-md-3">
+        <h4 class="nav-h4">PRODUKTER</h4>
+        <ul id="ul_style">
+            <li>
+                <a href="#">Alle</a>
+            </li>
+            <li>
+                <a href="#">Shoon</a>
+            </li>
+            <li>
+                <a href="#">Korea Special</a>
+            </li>
+            <li>
+                <a href="#">US, Imports</a>
+            </li>
+            <li>
+                <a href="#">Sleek Fabrics UK</a>
+            </li>
+        </ul>
+
+        <div class="col-md-12 no-pad">
+
+            <img width="120px" style="float: left" src="images/1_klassisk_brun.jpg">
+            <div style="font-size: 12px">
+                <p>
+                    <b>Shoon Slips</b>
+                </p>
+                <p>Klassisk brun</p>
+                <p>
+                    <b>DKK 900,-</b>
+                </p>
+            </div>
+            <button class="info">INFO</button>
+
+
+
+            <img width="120px" style="float: left" src="images/2_stribet_stil.jpg">
+            <div style="font-size: 12px">
+                <p>
+                    <b>Shoon Slips</b>
+                </p>
+                <p>Klassisk brun</p>
+                <p>
+                    <b>DKK 600,-</b>
+                </p>
+            </div>
+            <button class="info">INFO</button>
+
+        </div>
+
+
+    </div>
+
+
+    <div style="padding-left: 300px">
+        <h3>
+            <b>NYHEDER</b>
+        </h3>
+        <% nyheder.forEach(function(nyhed){ %>
+            <div>
+                <br>
+                <br>
+                <span>
+                    <%= nyhed.dato %>
+                </span>
+
+                <p>
+                    <%= nyhed.overskrift %>
+                </p>
+
+                <p>
+                    <%= nyhed.tekst %>
+                        <a class="læsmere" href="?nyhed=<%= nyhed.id %>">
+                            <b>LÆS MERE...</b>
+                        </a>
+                </p>
+
+            </div>
+            <% }) %>
+
+
+    </div>
+
+
+</main>
